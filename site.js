@@ -140,7 +140,7 @@ exports.video = function(redisClient) {
 	};
 };
 
-// quick.as video emned (see above) - not logging views
+// quick.as video embed (see above) - not logging views
 exports.embed = function(redisClient) {
 	return function(req, res) {
 		var video_entry = req.params.entry;
